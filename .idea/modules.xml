@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/NougatVoipApp.iml" filepath="$PROJECT_DIR$/NougatVoipApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NougatVoip.iml" filepath="$PROJECT_DIR$/NougatVoip.iml" />
       <module fileurl="file://$PROJECT_DIR$/android-ngn-stack/android-ngn-stack.iml" filepath="$PROJECT_DIR$/android-ngn-stack/android-ngn-stack.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
