@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_home_black"
+        android:title="@string/text_menu_home" />
+
+    <item
+        android:id="@+id/menu_contact"
+        android:icon="@drawable/contact_news"
+        android:title="@string/text_menu_address" />
+
+    <item
+        android:id="@+id/menu_dialor"
+        android:icon="@drawable/call"
+        android:title="@string/text_menu_dialor" />
+
+    <item
+        android:id="@+id/menu_calls"
+        android:icon="@drawable/call_history_new"
+        android:title="@string/text_menu_call_history" />
+
+    <item
+        android:id="@+id/menu_about_us"
+        android:icon="@drawable/about_us_new"
+        android:title="@string/text_menu_about_us" />
+
+
+</menu>
