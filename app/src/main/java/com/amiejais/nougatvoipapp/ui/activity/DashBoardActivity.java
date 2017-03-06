@@ -10,14 +10,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
 import com.amiejais.nougatvoipapp.R;
-import com.amiejais.nougatvoipapp.app.Engine;
 import com.amiejais.nougatvoipapp.ui.fragment.AboutUsFragment;
 import com.amiejais.nougatvoipapp.ui.fragment.ContactsFragment;
 import com.amiejais.nougatvoipapp.ui.fragment.DialorFragment;
 import com.amiejais.nougatvoipapp.ui.fragment.HistoryFragment;
 import com.amiejais.nougatvoipapp.ui.fragment.HomeFragment;
-
-import org.doubango.ngn.services.INgnSipService;
 
 public class DashBoardActivity extends AppCompatActivity {
 
@@ -25,14 +22,12 @@ public class DashBoardActivity extends AppCompatActivity {
 
     private BottomNavigationView mBottomNav;
     private int mSelectedItem;
-    private INgnSipService mSipService;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bottom_dash_board);
 
-        mSipService = Engine.getInstance().getSipService();
         mBottomNav = (BottomNavigationView) findViewById(R.id.navigation);
         mBottomNav.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
